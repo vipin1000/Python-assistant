@@ -10,7 +10,7 @@ import json # Useful for debugging API responses
 # For simplicity in this example, we'll keep it here, but **replace it or use secrets**.
 try:
     # Try loading from secrets first
-    API_KEY = st.secrets["HUGGINGFACE_API_KEY"]
+    API_KEY = "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"
 except (FileNotFoundError, KeyError):
     # Fallback if secrets aren't configured (replace with your key)
     API_KEY = "YOUR_HUGGINGFACE_API_KEY_HERE" # <--- REPLACE OR USE SECRETS
